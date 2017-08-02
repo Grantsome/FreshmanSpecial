@@ -5,28 +5,39 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class HomepageActivity extends AppCompatActivity {
+public class HomepageActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private ImageButton a1;
-    private ImageButton b1;
-    private ImageButton c1;
-    private ImageButton d1;
+    private ImageButton mCQUPTStrategy; //邮子攻略
+    private ImageButton mCQUPTElegant; //重邮风采
+    private ImageButton mCQUPTData; //重邮数据
+    private ImageButton mCQUPTMilitaryTra; //军训特辑
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.special_2017_activity_main);
 
-        a1 = (ImageButton) findViewById(R.id.a1);
-        b1 = (ImageButton) findViewById(R.id.b1);
-        c1 = (ImageButton) findViewById(R.id.c1);
-        d1 = (ImageButton) findViewById(R.id.d1);
+        mCQUPTStrategy = (ImageButton) findViewById(R.id.strategy);
+        mCQUPTElegant = (ImageButton) findViewById(R.id.elegant);
+        mCQUPTData = (ImageButton) findViewById(R.id.cqupt_data);
+        mCQUPTMilitaryTra = (ImageButton) findViewById(R.id.military_training);
+    }
 
-        a1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.strategy:
 
-            }
-        });
+                break;
+            case R.id.elegant:
+
+                break;
+            case R.id.cqupt_data:
+
+                break;
+            case R.id.military_training:
+
+                break;
+        }
     }
 }

@@ -27,7 +27,7 @@
             app:cardUseCompatPadding="true">
 
             <ImageButton
-                android:id="@+id/a1"
+                android:id="@+id/strategy"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/a1"
@@ -46,7 +46,7 @@
             app:cardUseCompatPadding="true">
 
             <ImageButton
-                android:id="@+id/b1"
+                android:id="@+id/elegant"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/b1"
@@ -65,7 +65,7 @@
             app:cardUseCompatPadding="true">
 
             <ImageButton
-                android:id="@+id/c1"
+                android:id="@+id/cqupt_data"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/c1"
@@ -84,7 +84,7 @@
             app:cardUseCompatPadding="true">
 
             <ImageButton
-                android:id="@+id/d1"
+                android:id="@+id/military_training"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/d1"
