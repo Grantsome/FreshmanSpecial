@@ -1,7 +1,7 @@
 ### 新生专题网
 分为四个板块，我只做了三个板块的内容，功能说明和对应的图片如下：
-#### 首页图片
-![image](https://github.com/Grantsome/FreshmanSpecial/blob/master/reedMeNeedPicture/1.jpg)
+#### 新生专题首页图片
+![image](https://github.com/Grantsome/FreshmanSpecial/blob/master/reedMeNeedPicture/first.jpg)
 #### 邮子攻略图片
 ![image](https://github.com/Grantsome/FreshmanSpecial/blob/master/reedMeNeedPicture/1.jpg)
 ![image](https://github.com/Grantsome/FreshmanSpecial/blob/master/reedMeNeedPicture/2.jpg)
