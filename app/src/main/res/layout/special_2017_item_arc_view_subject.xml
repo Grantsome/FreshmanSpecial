@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <com.mredrock.freshmanspecial.strategy.widget.AcrView
+                android:id="@+id/easy_arc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:percent="80"
+                app:fillColor="#e2da84"
+                app:backgroundColor="#fdfff9"
+                app:bigRadius="180"
+                app:gapRadius="16"/>
+
+            <com.mredrock.freshmanspecial.strategy.widget.AcrView
+                android:id="@+id/just_arc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:percent="80"
+                app:fillColor="#98fce7"
+                app:backgroundColor="#f9fef9"
+                app:bigRadius="140"
+                app:gapRadius="16"/>
+
+            <com.mredrock.freshmanspecial.strategy.widget.AcrView
+                android:id="@+id/diffcult_arc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:percent="20"
+                app:fillColor="@color/colorBoy"
+                app:backgroundColor="@color/colorBoyBackground"
+                app:bigRadius="100"
+                app:gapRadius="16"/>
+
+            <LinearLayout
+                android:layout_marginTop="335dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginLeft="150dp"
+                    android:src="@color/colorBoy"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/special_2017_diff"
+                    android:id="@+id/easy_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="310dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginLeft="150dp"
+                    android:src="#98fce7"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/special_2017_just"
+                    android:id="@+id/just_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="285dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginLeft="150dp"
+                    android:src="#e2da84"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/special_2017_easy"
+                    android:id="@+id/diff_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

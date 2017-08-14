@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="acrView">
+        <attr name="percent" format="float"> </attr>
+        <attr name="fillColor" format="color"> </attr>
+        <attr name="backgroundColor" format="color"> </attr>
+        <attr name="bigRadius" format="float"> </attr>
+        <attr name="gapRadius" format="float"> </attr>
+    </declare-styleable>
+    <declare-styleable name="PickerStatusView">
+        <attr name="text" format="string"> </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="10dp"
+                android:padding="15dp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/school_image"
+                android:layout_width="360dp"
+                android:layout_height="200dp"/>
+
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#292421"   android:layout_marginLeft="10dp"
+                    android:text="@string/special_2017_build_name"
+                    android:id="@+id/school_build_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/special_2017_build_description"
+                    android:id="@+id/school_build_description"
+                    android:textColor="#808A87"
+                    android:textSize="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

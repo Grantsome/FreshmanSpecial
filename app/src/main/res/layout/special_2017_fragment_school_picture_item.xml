@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.mredrock.freshmanspecial.strategy.widget.TransformImageView
+                android:layout_marginTop="30dp"
+                android:id="@+id/school_transform_image"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"/>
+
+            <TextView
+                android:text="1/1"
+                android:paddingTop="8dp"
+                android:paddingLeft="50dp"
+                android:textSize="13dp"
+                android:textColor="@color/colour_title_text"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/fraction"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"/>
+
+        </RelativeLayout>
+
+</LinearLayout>

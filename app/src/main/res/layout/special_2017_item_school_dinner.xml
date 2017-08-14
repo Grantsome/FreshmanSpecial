@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/school_din_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textColor="#292421"
+            android:textSize="15dp"
+            android:layout_marginTop="210dp"
+            android:id="@+id/school_din_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/special_2017_school_dinner_name"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:layout_marginTop="240dp"
+            android:id="@+id/school_din_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/special_2017_school_dinner_desc"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context="com.mredrock.freshmanspecial.strategy.fragment.SchoolEnvironmentFragment">
+
+    <!--效果显示，视图滚动时，Toolbar会隐藏，这个效果新增的CoordinatorLayout+AppBarLayout-->
+    <!--<android.support.design.widget.CoordinatorLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--layout_scrollFlags="scroll":Child View 伴随着滚动事件而滚出或滚进屏幕-->
+        <!--layout_scrollFlags="enterAlways":优先滚动Child View，当优先滚动的一方已经全部滚进屏幕之后，另一方才开始滚动-->
+        <!--layout_scrollFlags="snap":Child View滚动比例的一个吸附效果,当我们松开手指时，Child View要么向上全部滚出屏幕，要么向下全部滚进屏幕，-->
+
+        <!--<android.support.v4.widget.SwipeRefreshLayout-->
+            <!--android:id="@+id/refresh_layout"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </android.support.v7.widget.RecyclerView>
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:background="#50323232"
+                        android:alpha="0.7"
+                        android:orientation="vertical"
+                        android:id="@+id/frame_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <RelativeLayout
+                    android:id="@+id/frame_Rl"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v4.view.ViewPager
+                        android:background="@drawable/a1"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp">
+
+                    </android.support.v4.view.ViewPager>
+
+                </RelativeLayout>
+
+            </FrameLayout>
+
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+
+</RelativeLayout>

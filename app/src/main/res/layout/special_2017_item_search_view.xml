@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#EAEAEA"
+            android:layout_width="300dp"
+            android:layout_height="40dp">
+
+            <EditText
+                android:focusable="true"
+                android:background="@null"
+                android:id="@+id/search_input"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="16sp"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:hint="@string/special_2017_qq_group_search_hint"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/search_delete"
+                android:background="@drawable/ic_close_gray_24dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_width="15dp"
+                android:layout_height="15dp"/>
+
+        </FrameLayout>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="#788EFB"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_head"
+        android:visibility="gone"
+        android:textSize="15dp"
+        android:text="搜索结果"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+</LinearLayout>

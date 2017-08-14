@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#292421"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/school_enter_know_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/special_2017_enter_school_need_know_name"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="#808A87"
+            android:textSize="13dp"
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/school_enter_know_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/special_2017_enter_school_need_know_desc"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

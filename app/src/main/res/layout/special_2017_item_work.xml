@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <com.mredrock.freshmanspecial.strategy.widget.AcrView
+                android:id="@+id/work_radio_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:percent="80"
+                app:fillColor="#84f7e3"
+                app:backgroundColor="#f4fffb"
+                app:bigRadius="140"
+                app:gapRadius="16"/>
+
+            <com.mredrock.freshmanspecial.strategy.widget.AcrView
+                android:id="@+id/not_work_radio_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:percent="20"
+                app:fillColor="@color/colorBoy"
+                app:backgroundColor="@color/colorBoyBackground"
+                app:bigRadius="100"
+                app:gapRadius="16"/>
+
+            <LinearLayout
+                android:layout_marginTop="290dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginLeft="150dp"
+                    android:src="#84f7e3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/special_2017_work"
+                    android:id="@+id/girl_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="320dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginLeft="150dp"
+                    android:src="@color/colorBoy"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/special_2017_not_work"
+                    android:id="@+id/boy_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>
